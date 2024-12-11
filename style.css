@@ -1,0 +1,45 @@
+body {
+    background-color: #8681bd;
+    margin: 0;
+    padding: 0;
+}
+
+.centered-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5em;
+    text-transform: uppercase;
+    font-family: Calibri;
+    color: white;
+}
+
+.centered-title img {
+    margin-left: 10px;
+    height: 1em; /* Adjust the margin as needed */
+}
+
+.section {
+    height: 15em;
+    width: 100%;
+}
+
+.section p {
+    font-size: 2em;
+    font-family: Lato;
+    color: black;
+    display: flex;
+    align-items: center;
+    /* Remove flex-wrap to prevent wrapping */
+}
+
+.section img {
+    max-width: 50%; /* Set a maximum width for the image */
+    height: auto;
+    margin-left: 10px; /* Adjust the margin as needed */
+}
+
+.inline-image {
+    display: inline-block;
+    vertical-align: middle;
+}
