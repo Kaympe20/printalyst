@@ -22,6 +22,7 @@ body {
 .section {
     height: 15em;
     width: 100%;
+    border-spacing: 1em;
 }
 
 .section img {
