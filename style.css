@@ -16,13 +16,12 @@ body {
 
 .centered-title img {
     margin-left: 10px;
-    height: 1em; /* Adjust the margin as needed */
+    height: 1em;
 }
 
 .section {
     height: 15em;
     width: 100%;
-    border-spacing: 1em;
 }
 
 .section img {
