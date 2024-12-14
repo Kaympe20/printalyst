@@ -27,3 +27,15 @@ body {
 .section img {
     height: 15em;
 }
+
+.section p {
+    font-size: 2em;
+    font-family: Calibri;
+    text-align: center;
+}
+
+br {
+    content: "";
+    display: block;
+    margin-bottom: 5em;
+}
