@@ -9,6 +9,33 @@ body {
     border-radius: 1em;
 }
 
+.box {
+    width: 15em;
+    min-height: 15em;
+    background-color: #fff7d3;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.box h2 {
+    font-family: Lato;
+    text-align: center;
+    font-size: 3em;
+    font-weight: 300;
+}
+
+.box p {
+    font-family: Lato;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.box p br {
+    all: initial;
+}
+
 .centered-title {
     display: flex;
     align-items: center;
