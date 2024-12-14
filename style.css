@@ -24,22 +24,6 @@ body {
     width: 100%;
 }
 
-.section p {
-    font-size: 2em;
-    font-family: Lato;
-    color: black;
-    display: flex;
-    align-items: center;
-    /* Remove flex-wrap to prevent wrapping */
-}
-
 .section img {
-    max-width: 50%; /* Set a maximum width for the image */
-    height: auto;
-    margin-left: 10px; /* Adjust the margin as needed */
-}
-
-.inline-image {
-    display: inline-block;
-    vertical-align: middle;
+    height: 15em;
 }
