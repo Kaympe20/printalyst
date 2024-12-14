@@ -28,7 +28,8 @@ body {
     height: 15em;
 }
 
-.section p {
+.section p,
+.section li {
     font-size: 2em;
     font-family: Calibri;
     text-align: center;
