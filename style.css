@@ -36,6 +36,32 @@ body {
     all: initial;
 }
 
+.box a {
+    margin-bottom: initial;
+}
+
+.box a button {
+    font-family: Lato;
+    font-size: 1.5em;
+    background-color: #3d376b;
+    color: white;
+    border: none;
+    border-radius: 1em;
+    padding: 0.5em 1em;
+    margin-top: 1em;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.box a button:hover {
+    background-color: violet;
+}
+
+.box h2 {
+    margin-bottom: initial;
+}
+
+
 .centered-title {
     display: flex;
     align-items: center;
@@ -103,6 +129,7 @@ br {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    transition-duration: 0.4s;
 }
 
 .nav li.active a:hover {
