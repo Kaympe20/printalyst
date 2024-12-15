@@ -1,3 +1,17 @@
+@media (max-width: 768px) {
+    .section img {
+        display: none;
+    }
+
+    .embed {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    
+}
+
 html {
     overflow-y: scroll;
 }
@@ -44,7 +58,7 @@ body {
     margin-bottom: initial;
 }
 
-.box a button {
+button {
     font-family: Lato;
     font-size: 1.5em;
     background-color: #3d376b;
@@ -69,7 +83,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 5em;
+    font-size: 6vw;
     text-transform: uppercase;
     font-family: Calibri;
     color: white;
