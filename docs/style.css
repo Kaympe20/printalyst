@@ -125,7 +125,7 @@ br {
 
 .nav {
     display: inline-block;
-    border-radius: 25px;
+    border-radius: 15px;
     list-style-type: none;
     margin: 0;
     margin-top: 1em;
@@ -140,6 +140,14 @@ br {
     margin-right: 0.25em;
     margin-left: 0.25em;
     float: left;
+}
+
+.nav li:first-child {
+    margin-left: 0;
+}
+
+.nav li:last-child {
+    margin-right: 0;
 }
 
 .nav li a {
