@@ -60,6 +60,10 @@ body {
     margin-bottom: initial;
 }
 
+.box a button {
+    width: 90%;
+}
+
 button {
     font-family: Lato;
     font-size: 1.5em;
