@@ -171,3 +171,41 @@ br {
     background-color: #111;
     border-radius: 1em;
 }
+
+@keyframes flyInFromLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes flyInFromRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.fly-in-left {
+    animation: flyInFromLeft 1s ease-out;
+}
+
+.fly-in-right {
+    animation: flyInFromRight 1s ease-out;
+}
+
+.slack {
+    background-color: rgb(16, 78, 144);
+    color: #36C5F0;
+    border-radius: 5px;
+    font-family: Lato;
+    font-weight: 50;
+}
